@@ -41,7 +41,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
 
 
     const data = {
-        // labels: coinTimestamp,
         datasets: [
             {
                 label: 'Price In USD',
@@ -79,7 +78,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
                     <Title level={5} className="current-price">Current {coinName} Price: $ {currentPrice}</Title>
                 </Col>
             </Row>
-            {/* {coinPrice && coinTimestamp && (<Line data={data} options={options} />)} */}
         </>
     );
 };
